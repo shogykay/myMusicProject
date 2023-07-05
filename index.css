@@ -1,0 +1,178 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.first-container{
+    height: 100vh;
+    background: #182747;
+    padding: 0;
+}
+
+.first-container .introduction{
+    height: 80%;
+    text-align: center;
+    margin-top: 4rem;
+    color: #ffffff;
+}
+
+.first-container .introduction img{
+    margin-top: 2rem;
+    width: 70%;
+}
+.first-container .picture{
+    height: 80%;
+    text-align: center;
+}
+
+.first-container .picture img{
+    width: 50%;
+}
+
+.page-links{
+    padding-top:1.5rem;
+    margin-bottom: 3rem;
+    display: flex;
+    background-color:#000344;
+}
+
+.page-links a{
+    font-size: 14px;
+}
+.page-links .insta{
+    position: absolute;
+    right: 5%;
+}
+.page-links .insta a{
+    text-decoration: none;
+    color: white;
+}
+.page-links ul{
+    display: flex;
+}
+
+.page-links ul li{
+    list-style: none;
+    margin-right: 3rem;
+}
+
+
+#listen ul{
+    border: 2px solid;
+    background-color: white;
+}
+
+
+.page-links ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.introduction{
+    font-size: 14px;
+}
+
+.picture{
+    position: relative;
+    background-image: url(kenny.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 15rem;
+    top: 3.7rem;
+    width: 36%;
+
+}
+
+.my-name{
+    margin-left: 15rem;
+    margin-top: 4rem;
+    color: white;
+}
+
+.view-songs{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    color: #3c4043;
+    cursor: pointer;
+    font-family: arial,sans-serif;
+    font-size: 10px;
+    height: 24px;
+    line-height: 27px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: pre;
+    border-radius: 4px;
+
+    margin: 0;
+    position: absolute;
+    top: 47%;
+    left: 36%;
+}
+
+.view-songs:hover {
+    box-shadow: rgba(0, 0, 0, .1) 0 1px 1px;
+    color:#202124;
+    background-color: #36454F;
+    color: white;
+}
+
+.view-songs:focus {
+  outline: none;
+}
+.second-container{
+    height: 100vh;
+    background: #2b2b20;
+    padding-top: 1rem;
+
+}
+
+#tracks{
+    position:absolute;
+    right:45%;
+    display: block;
+}
+
+
+.track-1{
+    position: absolute;
+    width: 17.7%;
+    height: 40%;
+    background-image: url(foru.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 2.5rem;
+    border-radius: 10px;
+}
+
+
+.track-2{
+    position: absolute; 
+    width: 17.7%;
+    height: 40%;
+    background-image: url(foru2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 2.5rem;
+    left: 25%;
+    border-radius: 10px;
+}
+
+.out-soon{
+    position: absolute; 
+    width: 40%;
+    margin-top: 20rem; 
+}
+
+
+.notes{
+    color:#f2f2f2;
+}
+
+.history{
+    margin-top: 8rem;
+    color: #112B3C;
+}
