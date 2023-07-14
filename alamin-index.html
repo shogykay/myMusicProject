@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="alamin-index.css" />
+    <!-- bootstrap added -->
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <!-- social media icons -->
+    <!-- Font Awesome 5.15.1 CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body
+    style="
+      background-color: black;
+      color: white;
+      font-family: 'Montserrat', sans-serif;
+    "
+  >
+    <nav class="navbar navbar-expand-md navbar-dark p-3">
+      <img
+        src="pngwing.com.png"
+        alt="Logo"
+        style="
+          width: 60px;
+          border: 2px double rgb(7, 229, 185);
+          border-radius: 7px;
+          margin-left: 1.5%;
+        "
+      />
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavbar"
+      >
+        <span class="navbar-toggler-icon rounded "></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link text-info" href="Events.html"
+              >Events & Tickets</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-info" href="bookings.html">Bookings</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-info" href="#">Music Videos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-info" href="about.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <header class="hero">
+      <div class="p-2">
+        <h1>KENOGRAPHY RECORDS</h1>
+        <p>
+          Feel the rhythm, feel the vibe. Bringing the best of Afrobeats to your
+          speakers. Join me on my journey to spread the joy of music around the
+          world.
+          <br />
+          <br />
+          Afrobeats is more than just a genre of music - its a cultural movement
+          that has swept the world. At our website we are dedicated to
+          celebrating rich history and vibrant present of Afrobeats music.
+          <br />
+          <br />
+          <a href="about.html">Read more...</a>
+        </p>
+      </div>
+      <div class="imgIntro p-2 rounded">
+        <div class="img-text">
+          <p class="name">
+            Musician -
+            <span class="text-warning" style="font-weight: 800">Sir Keno</span>
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <!-- <div class="">
+
+
+
+
+        <div class="">
+            <div>
+                <ul>
+                    <li>
+                        <a href="Events.html">Events & Tickets <i class="fa-solid fa-ticket"></i></a>
+                    </li>
+                    <li><a href="bookings.html">Bookings</a></li>
+                    <li><a href="#">Music Videos</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </div>
+            <div class="insta">
+                <a href="https://www.instagram.com/keno_graphy/"><i class="fa fa-instagram" aria-hidden="true"></i>
+                    instagram</a>
+            </div>
+        </div> -->
+
+    <!-- <div class="row">
+            <div class="introduction col-lg-6">
+                <h1>KENOGRAPHY RECORDS</h1>
+                <p>Feel the rhythm, feel the vibe. Bringing the best of Afrobeats to your speakers. Join me on my
+                    journey to
+                    spread the joy of music around the world.
+                    <br>
+                    <br>
+                    Afrobeats is more than just a genre of music - its a cultural movement that has swept the world. At
+                    our website
+                    we are dedicated to celebrating rich history and vibrant present of Afrobeats music.
+                    <br>
+                    <br>
+                    <a href="about.html">Read more...</a>
+                </p>
+
+
+                <img src="stream.jpg" alt="">
+            </div>
+            <div class=" col-lg-6">
+                <div class="picture">
+                </div>
+                <div class="my-name">
+                    <p>Musician :- Sir Keno</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="second-container container-fluid">
+        <h3 id="tracks" style="color:#f2f2f2">TRACKS</h3>
+        <br>
+        <br>
+        <p class="notes">Released Tracks</p>
+
+        <div class="track-1">
+            <button class="view-songs" onclick="visitPage();"><i class="fa-solid fa-play"></i></button>
+        </div>
+
+        <div class="track-2">
+            <button class="view-songs" onclick=""><i class="fa-solid fa-play"></i></button>
+        </div>
+        <div class="out-soon">
+            <p class="notes">Upcoming Projects</p>
+            <ul>
+                <li class="notes">Heartbreak</li>
+            </ul>
+        </div>
+
+    </div> -->
+
+    <footer class="footer bg-dark">
+      <p> These social media icons not linked yet, needs another branch to fix them</p>
+      <div>
+        <!-- Facebook -->
+        <i class="fab fa-facebook-f fa-1x" style="color: #3b5998"></i>
+
+        <!-- Twitter -->
+        <i class="fab fa-twitter fa-1x" style="color: #55acee"></i>
+
+        <!-- Google -->
+        <i class="fab fa-google fa-1x" style="color: #dd4b39"></i>
+
+        <!-- Instagram -->
+        <i class="fab fa-instagram fa-1x" style="color: #ac2bac"></i>
+
+        <!-- Pinterest -->
+        <i class="fab fa-pinterest fa-1x" style="color: #c61118"></i>
+
+        <!-- Youtube -->
+        <i class="fab fa-youtube fa-1x" style="color: #ed302f"></i>
+
+        <!-- Whatsapp -->
+        <i class="fab fa-whatsapp fa-1x" style="color: #25d366"></i>
+
+        <!-- Tiktok -->
+        <i class="fab fa-tiktok fa-1x" style="color: #ffffff"></i>
+      </div>
+      <div class="copyright-text">
+        <p>
+          Copyright &copy;
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          All Rights Reserved
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
